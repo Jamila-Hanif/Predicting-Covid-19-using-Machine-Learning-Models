@@ -14,6 +14,7 @@ Top-Performing Models:
 The Ensemble Stacking Classifier emerged as the strongest performer, achieving an accuracy of 97.4%, a precision of 97% for the positive class, and a recall of 99% for the positive class, with an F1-score of 98% and an ROC AUC of ~0.97 (approximated from similar ensemble performance).
 Logistic Regression also showed strong performance with an ROC AUC of ~0.83 and balanced precision/recall.
 Feature Importance: Features like patient age quantile, lymphocyte_ratio, and hematocrit consistently ranked high in importance across tree-based models, indicating their strong correlation with COVID-19 diagnosis.
+
 Future Work:
 Integration of Clinical Notes: Incorporate unstructured clinical notes using Natural Language Processing (NLP) to extract additional predictive features.
 Time-Series Analysis: If longitudinal patient data is available, apply time-series models to track changes in patient parameters over time.
